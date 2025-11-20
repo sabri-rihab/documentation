@@ -80,8 +80,6 @@ La valeur peut changer.
 On ne peut pas redéclarer la variable.
 
 3. var (non recommandé)
-js
-Copier le code
 var a = 5
 a = 10    // valide
 let a = 10 // pas valide
