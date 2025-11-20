@@ -71,15 +71,15 @@ Exemples supplémentaires :
 "43" > 1000      // false → 1000 est converti en chaîne et comparé alphabétiquement
 
 ## Types de Déclarations de Variables
-# const
+1. const
 La valeur ne peut pas être changée ni réassignée.
 
-# let
+2. let
 La valeur peut changer.
 
 On ne peut pas redéclarer la variable.
 
-# var (non recommandé)
+3. var (non recommandé)
 js
 Copier le code
 var a = 5
@@ -88,5 +88,5 @@ let a = 10 // pas valide
 Peut être redéclaré plusieurs fois.
 Fonctionne différemment dans les blocs → peut causer des bugs.
 
-# Déclaration automatique (non recommandé)
+4. Déclaration automatique (non recommandé)
 Les variables non déclarées sont créées automatiquement lorsqu’elles sont utilisées pour la première fois.
